@@ -1,5 +1,5 @@
-//go:build !go1.23
-// +build !go1.23
+//go:build go1.25
+// +build go1.25
 
 #include "textflag.h"
 
@@ -50,4 +50,3 @@ TEXT ·goid(SB),NOSPLIT,$0-8
 	MOV X12, ret+0(FP)
 	RET
 #endif
-
